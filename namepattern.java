@@ -1,4 +1,5 @@
 public class namepattern {
+	
 
 	static int height = 5;
 
@@ -17,9 +18,11 @@ public class namepattern {
 				else
 					System.out.printf(" ");
 			}
+			
 			System.out.printf("\n");
 			n--;
 		}
+		System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'B'
@@ -39,7 +42,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'C'
@@ -54,7 +57,7 @@ public class namepattern {
 					continue;
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'D'
@@ -73,7 +76,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'E'
@@ -90,7 +93,7 @@ public class namepattern {
 					continue;
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'F'
@@ -106,7 +109,7 @@ public class namepattern {
 					continue;
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'G'
@@ -135,7 +138,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'H'
@@ -151,7 +154,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'I'
@@ -167,7 +170,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'J'
@@ -187,7 +190,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'K'
@@ -203,7 +206,7 @@ public class namepattern {
 			}
 			System.out.printf("\n");
 			dummy--;
-		}
+		}System.out.println("\n\n");
 	}
 
 	private static int abs(int dummy) {
@@ -222,7 +225,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'M'
@@ -244,7 +247,7 @@ public class namepattern {
 			} else
 				counter++;
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'N'
@@ -262,7 +265,7 @@ public class namepattern {
 			}
 			counter++;
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'O'
@@ -288,7 +291,7 @@ public class namepattern {
 			} else if (i >= (height / 2 + height / 5))
 				space--;
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'P'
@@ -307,7 +310,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'Q'
@@ -323,7 +326,7 @@ public class namepattern {
 			}
 			System.out.printf("\n");
 			d++;
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'R'
@@ -342,7 +345,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'S'
@@ -363,7 +366,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'T'
@@ -379,7 +382,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'U'
@@ -402,7 +405,7 @@ public class namepattern {
 					System.out.printf(" ");
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'V'
@@ -418,7 +421,7 @@ public class namepattern {
 			}
 			counter++;
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'W'
@@ -440,7 +443,7 @@ public class namepattern {
 				counter++;
 			}
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'X'
@@ -456,7 +459,7 @@ public class namepattern {
 			}
 			counter++;
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'Y'
@@ -474,7 +477,7 @@ public class namepattern {
 			System.out.printf("\n");
 			if (i < height / 2)
 				counter++;
-		}
+		}System.out.println("\n\n");
 	}
 
 	// Function to print the pattern of 'Z'
@@ -490,7 +493,7 @@ public class namepattern {
 			}
 			counter--;
 			System.out.printf("\n");
-		}
+		}System.out.println("\n\n");
 	}
 
 }

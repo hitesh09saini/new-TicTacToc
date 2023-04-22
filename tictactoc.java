@@ -42,8 +42,9 @@ public class tictactoc {
             ArrayList<Integer> q = new ArrayList<>();
 
             int i = 1;
-            while (i <= 9) {
-                System.out.println("\nenter the position from 1 to 9 :  \n\n");
+            while (i <=9) {
+               
+                System.out.print("\nenter the position from 1 to 9 :   ");
                 int p = s.nextInt();
                 int d = 0;
 
@@ -64,7 +65,7 @@ public class tictactoc {
                 // alternte
                 if (i % 2 != 0) {
                     switcho(p, board);
-
+                    
                     System.out.println("\n\n" + check(board, player1, player2, i)); // CHECK WIN / LOSSERS
 
                 } else {
@@ -234,10 +235,12 @@ public class tictactoc {
 
         if (person == " O ") {
             person = player1;
+            System.out.println("\n\n");
             m.pattern(player1);
 
         } else if (person == " X ") {
             person = player2;
+            System.out.println("\n\n");
             m.pattern(player2);
         }
 

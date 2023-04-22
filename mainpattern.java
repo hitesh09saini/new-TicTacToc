@@ -1,10 +1,7 @@
-import java.util.Scanner;
+
 
 public class mainpattern {
-    public static void main(String[] args) {
-        String n = "";
-        pattern(n);
-    }
+    
 
     public static void pattern(String s) {
         namepattern n = new namepattern();

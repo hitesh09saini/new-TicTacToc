@@ -1,8 +1,6 @@
 
     public class pattern{
-        
-            
-        
+      
       public static void pattern1 (){
         
       
