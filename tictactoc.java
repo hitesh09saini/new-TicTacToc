@@ -11,7 +11,7 @@ public class tictactoc {
         String player2;
 
         System.out.println("\n\n\n\n\n\n\n\n                                        WELCOME IN TICTACTOC !");
-        System.out.println("WELCOME IN HITESH GAMES : \n");
+        System.out.println("WELCOME IN HITESH GAMES :  \n");
         System.out.println(
                 "\nRULES OF MY GAME  ....\n1. DON'T ENTER AGAIN BY AGAIN A NUMBER \n2. DON'T ENTER INVALIDE NUMBERS \n");
         System.out.println("\n\nARE YOU AGREE THEN PRESS 1.\nAND NOT THEN PRESS 2.");
@@ -30,7 +30,7 @@ public class tictactoc {
             System.out.println(player1 + " PLAYER 1 : O \n\n" + player2 + " PLAYER 2 :  X \n");
 
             // board
-            Thread.sleep(0);
+
             String[][] board = { { " 1 ", "|", " 2 ", "|", " 3 " }, { "---", "+", "---", "+", "---" },
                     { " 4 ", "|", " 5 ", "|", " 6 " },
                     { "---", "+", "---", "+", "---" },
@@ -42,8 +42,8 @@ public class tictactoc {
             ArrayList<Integer> q = new ArrayList<>();
 
             int i = 1;
-            while (i <=9) {
-               
+            while (i <= 9) {
+
                 System.out.print("\nenter the position from 1 to 9 :   ");
                 int p = s.nextInt();
                 int d = 0;
@@ -65,7 +65,7 @@ public class tictactoc {
                 // alternte
                 if (i % 2 != 0) {
                     switcho(p, board);
-                    
+
                     System.out.println("\n\n" + check(board, player1, player2, i)); // CHECK WIN / LOSSERS
 
                 } else {
@@ -176,8 +176,6 @@ public class tictactoc {
         String deside = " ";
         String person = " ";
 
-        mainpattern m = new mainpattern();
-
         // for
 
         if (board[0][0] == board[2][2] && board[2][2] == board[4][4]) {
@@ -226,22 +224,23 @@ public class tictactoc {
 
         }
         pattern patt = new pattern();
+        mainpattern mp = new mainpattern();
         if (i == 9 && deside == " ") {
             patt.pattern1();
             System.out.println("\n\nnext try......End\n\n");
 
-            m.pattern("end");
+            mp.pattern(person);
         }
 
         if (person == " O ") {
             person = player1;
             System.out.println("\n\n");
-            m.pattern(player1);
+            mp.pattern(person);
 
         } else if (person == " X ") {
             person = player2;
             System.out.println("\n\n");
-            m.pattern(player2);
+            mp.pattern(person);
         }
 
         return deside + " " + person;
